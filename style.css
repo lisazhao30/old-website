@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.animations {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#ellipse-blue{
+    animation: blue1 4s ease;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+@keyframes blue1{
+    from {
+        opacity: 0;
+        transform: rotateZ(0deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateZ(360deg);
+    }
+}
+
+#ellipse-yellow{
+    animation: yellow1 4s ease;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+@keyframes yellow1{
+    from {
+        opacity: 0;
+        transform: rotateZ(0deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateZ(360deg);
+    }
+}
+
+#half-circle-red{
+    animation: red1 2s ease;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+@keyframes red1{
+    from {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#half-circle-pink{
+    animation: pink1 2s ease;
+    transform-origin: center;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pink1{
+    from {
+        opacity: 0;
+        transform: translateX(+250px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

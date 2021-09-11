@@ -1,0 +1,23 @@
+.white-square {
+    position: absolute;
+    right: 370px;
+    top: 160px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px 4px grey;
+    animation: square1 3s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-delay: 1s;
+    overflow: hidden;
+}
+
+@keyframes square1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

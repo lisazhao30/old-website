@@ -1,0 +1,14 @@
+<svg width="449" height="450" viewBox="0 0 449 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="left animations">
+<g id="half circle red">
+<ellipse id="Ellipse 1" cx="137.323" cy="108.934" rx="77.5834" ry="108.934" fill="#FFB6B9"/>
+<rect id="Rectangle 1" width="142.753" height="217.867" fill="#FFB6B9"/>
+</g>
+<g id="half circle pink">
+<ellipse id="Ellipse 1_2" cx="311.677" cy="341.066" rx="77.5834" ry="108.934" transform="rotate(180 311.677 341.066)" fill="#F4DADA"/>
+<rect id="Rectangle 1_2" x="449" y="450" width="142.753" height="217.867" transform="rotate(180 449 450)" fill="#F4DADA"/>
+</g>
+<ellipse id="ellipse blue" cx="341.547" cy="108.934" rx="107.453" ry="108.934" fill="#BEEBE9"/>
+<ellipse id="ellipse yellow" cx="107.453" cy="341.066" rx="107.453" ry="108.934" fill="#F6EEC7"/>
+</g>
+</svg>

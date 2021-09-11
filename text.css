@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.header-text {
+    position: relative;
+    top: -400px;
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    color: #FFB6B9;
+    letter-spacing: 3px;
+}
+
+.header-text2 {
+    position: relative;
+    top: -640px;
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    color: #BEEBE9;
+    letter-spacing: 3px;
+}
+
+.header2-text1 {
+    position: relative;
+    top: -380px;
+    width: 370px;
+    text-align: center;
+    letter-spacing: 1px;
+    overflow: hidden;
+    border-right: 1px solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    animation-delay: 1s;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 370px }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
