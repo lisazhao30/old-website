@@ -6,7 +6,7 @@ body {
 
 .header-text {
     position: relative;
-    top: -400px;
+    top: -425px;
     text-align: center;
     font-size: 23px;
     font-style: italic;
@@ -27,7 +27,7 @@ body {
 
 .header2-text1 {
     position: relative;
-    top: -380px;
+    top: -390px;
     width: 370px;
     text-align: center;
     letter-spacing: 1px;
